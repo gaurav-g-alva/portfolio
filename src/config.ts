@@ -20,6 +20,14 @@ export const siteConfig = {
 
   certifications: [
     {
+      name: "Oracle Data Platform Certified Foundations Associate",
+      issuer: "Oracle",
+      date: "August 2025",
+
+      image: "/portfolio/images/odp.png",
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=390BA9D40DDF2C848A8121522B9A9FB73E6A481FED17C532E0A3FF8474E3296E"
+    },
+    {
       name: "OCI AI Foundation Associate Certified",
       issuer: "Oracle",
       date: "August 2025",
