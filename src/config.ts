@@ -72,7 +72,8 @@ export const siteConfig = {
       link: "https://www.credly.com/badges/62a06820-4071-4f2c-be55-73358986b655/public_url"
     },
     {
-      name: "Build a Website on Google Cloud - Google Skillboost",
+      name: "Build a Website on Google Cloud",
+      issuer: "Google Cloud",
       date: "December 2024",
       image: "/portfolio/images/gc1.png",
       link: "https://www.credly.com/earner/earned/share/611c7d2e-7983-4433-8f27-2e4fdcbcd666"
