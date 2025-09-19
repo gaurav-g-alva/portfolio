@@ -20,6 +20,14 @@ export const siteConfig = {
 
   certifications: [
     {
+      name: "Building LLM Applications With Prompt Engineering",
+      issuer: "NVIDIA",
+      date: "August 2025",
+
+      image: "/portfolio/images/nvidia.png",
+      link: "https://learn.nvidia.com/certificates?id=x6AYPw4-QzCfHLfpmJeXVw#"
+    },
+    {
       name: "Oracle Data Platform Certified Foundations Associate",
       issuer: "Oracle",
       date: "August 2025",
