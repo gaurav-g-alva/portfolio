@@ -20,6 +20,14 @@ export const siteConfig = {
 
   certifications: [
     {
+      name: "Gemini Certified Student ",
+      issuer: "Google for Education",
+      date: "October 2025",
+
+      image: "/portfolio/images/gcs.png",
+      link: "https://edu.google.accredible.com/12b29bef-0751-4428-ac2c-5152de596852#acc.CoE28Mkn"
+    },
+    {
       name: "Building LLM Applications With Prompt Engineering",
       issuer: "NVIDIA",
       date: "August 2025",
