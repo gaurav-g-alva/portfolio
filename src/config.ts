@@ -111,6 +111,14 @@ export const siteConfig = {
       skills: ["Python", "Django", "HTML", "CSS", "Google Cloud", "Google APIs"],
     },
     {
+       name: "EduCare - Educational Website Prototype",
+      description:
+        "Designed a Educational Website which has multiple department and Course - Beginner",
+      link: "https://www.figma.com/proto/FOZYjm6q73AeyVF765kx9Z/CD019_Education?page-id=0%3A1&node-id=1-2&p=f&viewport=25%2C156%2C0.21&t=Q6ErtLvwpGQNQLLi-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A106",
+      skills: ["Figma"],
+
+    },
+    {
       name: "NoteSwap - Buy and Sell Notes Online",
       description:
         "A collaborative web platform enabling students to seamlessly share, upload, and access academic notes and resources categorized by subjects, topics, or courses.",
