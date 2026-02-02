@@ -24,7 +24,7 @@ export const siteConfig = {
       issuer: "Google for Education",
       date: "October 2025",
 
-      image: "/portfolio/images/gcs.png",
+      image: "/images/gcs.png",
       link: "https://edu.google.accredible.com/12b29bef-0751-4428-ac2c-5152de596852#acc.CoE28Mkn"
     },
     {
@@ -32,7 +32,7 @@ export const siteConfig = {
       issuer: "NVIDIA",
       date: "August 2025",
 
-      image: "/portfolio/images/nvidia.png",
+      image: "/images/nvidia.png",
       link: "https://learn.nvidia.com/certificates?id=x6AYPw4-QzCfHLfpmJeXVw#"
     },
     {
@@ -40,7 +40,7 @@ export const siteConfig = {
       issuer: "Oracle",
       date: "August 2025",
 
-      image: "/portfolio/images/odp.png",
+      image: "/images/odp.png",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=390BA9D40DDF2C848A8121522B9A9FB73E6A481FED17C532E0A3FF8474E3296E"
     },
     {
@@ -48,7 +48,7 @@ export const siteConfig = {
       issuer: "Oracle",
       date: "August 2025",
 
-      image: "/portfolio/images/oci.png",
+      image: "/images/oci.png",
       link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E984B9047201D95117D079B717349DA736B75719EC26D9AC644E80B491BC7758"
     },
     {
@@ -56,14 +56,14 @@ export const siteConfig = {
       issuer: "Google Cloud",
       date: "August 2025",
 
-      image: "/portfolio/images/gc.png",
+      image: "/images/gc.png",
       link: "https://www.credly.com/badges/e1051c39-2d6e-45ae-9c57-247f18295f89/linked_in_profile"
     },
     {
       name: "AWS Educate Introduction to Generative AI",
       issuer: "Amazon Web Services",
       date: "July 2025",
-      image: "/portfolio/images/aws.png",
+      image: "/images/aws.png",
 
       link: "https://www.credly.com/badges/ac3fd0cf-b1a9-4e24-9648-adddbf09d6cc/linked_in_profile"
     },
@@ -71,35 +71,35 @@ export const siteConfig = {
       name: "Deloitte Australia - Data Analytics Job Simulation",
       issuer: "Deloitte",
       date: "May 2025",
-      image : "/portfolio/images/data.png",
+      image : "/images/data.png",
       link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_B3LGqKrX9Swhc3YzL_1748596801601_completion_certificate.pdf"
     },
     {
       name: "Deloitte Australia - Cyber Job Simulation",
       issuer: "Deloitte",
       date: "May 2025",
-      image: "/portfolio/images/cyber.png",
+      image: "/images/cyber.png",
       link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/E9pA6qsdbeyEkp3ti_9PBTqmSxAf6zZTseP_B3LGqKrX9Swhc3YzL_1749202238361_completion_certificate.pdf"
     },
     {
       name: "Data Analytics Essentials",
       issuer: "Cisco",
       date: "January 2025",
-      image: "/portfolio/images/cisco.png",
+      image: "/images/cisco.png",
       link: "https://www.credly.com/badges/d6146aec-6a55-454e-acd6-00441d9eea30"
     },
     {
       name: "Cloud Computing Fundamentals",
       issuer: "IBM",
       date: "December 2024",
-      image: "/portfolio/images/ibm.png",
+      image: "/images/ibm.png",
       link: "https://www.credly.com/badges/62a06820-4071-4f2c-be55-73358986b655/public_url"
     },
     {
       name: "Build a Website on Google Cloud",
       issuer: "Google Cloud",
       date: "December 2024",
-      image: "/portfolio/images/gc1.png",
+      image: "/images/gc1.png",
       link: "https://www.credly.com/earner/earned/share/611c7d2e-7983-4433-8f27-2e4fdcbcd666"
     },
   ],
