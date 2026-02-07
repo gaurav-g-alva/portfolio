@@ -136,9 +136,18 @@ export const siteConfig = {
   ],
   experience: [
     {
+       company: "Take It Smart (OPC) Pvt Ltd.",
+      title: "Data Science Intern",
+      dateRange: "Feb 2026 – Present",
+      bullets: [
+        "Data Visualization and EDA",
+        
+      ],
+    },
+    {
        company: "IEEE VCET Student Branch",
       title: "Vice Chair - IEEE ComSoc SB",
-      dateRange: "Jan 2025 – Present",
+      dateRange: "Jan 2025 – Dec 2025",
       bullets: [
         "Conducted industry-connect project exhibition under IEEE VCET SB.",
         "Organized events and skill development programs.",
@@ -149,7 +158,7 @@ export const siteConfig = {
     {
       school: "Vivekananda College of Engineering and Technology, Puttur",
       degree: "B.E in Computer Science (Data Science)",
-      dateRange: "Sept 2022 – Aug 2026",
+      dateRange: "Sept 2022 – May 2026",
       achievements: [
         "GPA: 8.57/10",
         "Relevant Coursework: Data Structures, OS, TOC, Computer Networks, DBMS, AI & ML, Big Data Analytics, UI/UX Design, Algorithms",
