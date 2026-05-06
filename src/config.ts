@@ -106,6 +106,14 @@ export const siteConfig = {
 
   projects: [
     {
+       name: "Coding Cup Labs - CodingCupLabs.in",
+      description:
+        "CodingCup Labs is a modern software development and technology platform focused on building innovative, scalable, and production-ready digital solutions.",
+      link: "https://codingcuplabs.in/",
+      skills: ["Astro"],
+
+    },
+    {
        name: "Web-Based Automatic Timetable Scheduler",
       description:
         "A genetic algorithm-based system to automatically generate conflict-free timetables for colleges.",
@@ -141,6 +149,8 @@ export const siteConfig = {
       dateRange: "Feb 2026 – Present",
       bullets: [
         "Data Visualization and EDA",
+        "Artificial Intelligence and Machine Learning",
+        "Image Classification & RAG"
         
       ],
     },
