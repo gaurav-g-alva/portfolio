@@ -146,7 +146,7 @@ export const siteConfig = {
     {
        company: "Take It Smart (OPC) Pvt Ltd.",
       title: "Data Science Intern",
-      dateRange: "Feb 2026 – Present",
+      dateRange: "Feb 2026 – May 2026",
       bullets: [
         "Data Visualization and EDA",
         "Artificial Intelligence and Machine Learning",
