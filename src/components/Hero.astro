@@ -136,19 +136,21 @@ import { siteConfig } from "../config";
       >
         Hello! 👋
       </h2>
-      <div class="mt-6 sm:mt-8 md:mt-10 flex items-center gap-6">
-        <h1
-          class="text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
-        >
-          I'm <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
-        </h1>
-        <img src="/images/IMG_2577.jpg" alt="Profile Photo" class="w-64 h-64 sm:w-60 sm:h-60 md:w-64 md:h-64 rounded-full border-2 border-[var(--accent-color)] object-cover animate-fade-in animation-delay-300" loading="lazy" />
+      <div class="mt-6 sm:mt-8 md:mt-10 flex flex-col-reverse sm:flex-row items-center gap-8 md:gap-12">
+        <div class="space-y-4 text-center sm:text-left">
+          <h1
+            class="text-pretty text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-bold tracking-tight text-gray-800 animate-fade-in animation-delay-200"
+          >
+            I'm <span style={{ color: siteConfig.accentColor }}>{siteConfig.name}</span>
+          </h1>
+          <p
+            class="text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
+          >
+            {siteConfig.title}
+          </p>
+        </div>
+        <img src="/images/IMG_2577.jpg" alt="Profile Photo" class="w-40 h-40 sm:w-60 sm:h-60 md:w-64 md:h-64 rounded-full border-2 border-[var(--accent-color)] object-cover animate-fade-in animation-delay-300" loading="lazy" />
       </div>
-      <p
-        class="mt-4 sm:mt-6 md:mt-8 text-pretty text-base sm:text-lg md:text-xl/8 font-medium text-gray-600 animate-fade-in animation-delay-400"
-      >
-        {siteConfig.title}
-      </p>
     </div>
   </div>
   <div
