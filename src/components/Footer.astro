@@ -1,6 +1,7 @@
 ---
 import { siteConfig } from "../config";
 
+const isHome = Astro.url.pathname === "/" || Astro.url.pathname === "/index.html";
 const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
 const hasExperience = siteConfig.experience && siteConfig.experience.length > 0;
 const hasEducation = siteConfig.education && siteConfig.education.length > 0;
@@ -121,35 +122,50 @@ const hasCertifications = siteConfig.certifications && siteConfig.certifications
             >
             
           </a>
-          {/* Google Dev */}
-{siteConfig.social?.gdev && (
-  <a
-    href={siteConfig.social.gdev}
-    target="_blank"
-    rel="noopener noreferrer"
-    aria-label="Google Dev"
-    class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)] flex items-center"
-    style={`--accent-color: ${siteConfig.accentColor}`}
-  >
-    <span class="material-symbols-outlined text-[28px]">
-      code
-    </span>
-  </a>
-)}
+          {
+            siteConfig.social?.gdev && (
+              <a
+                href={siteConfig.social.gdev}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Google Dev"
+                class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)] flex items-center"
+                style={`--accent-color: ${siteConfig.accentColor}`}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="h-6 w-6"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 8l-4 4l4 4" />
+                  <path d="M17 8l4 4l-4 4" />
+                  <path d="M14 4l-4 16" />
+                </svg>
+              </a>
+            )
+          }
         </div>
       </div>
 
       <div class="hidden md:block flex flex-col md:items-end gap-4">
         <nav class="flex gap-x-8">
           <a
-            href="#about"
+            href={isHome ? "#about" : "/#about"}
             class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
             >About</a
           >
           {
             hasProjects && (
               <a
-                href="#projects"
+                href={isHome ? "#projects" : "/#projects"}
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Projects
@@ -159,7 +175,7 @@ const hasCertifications = siteConfig.certifications && siteConfig.certifications
           {
             hasExperience && (
               <a
-                href="#experience"
+                href={isHome ? "#experience" : "/#experience"}
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Experience
@@ -169,7 +185,7 @@ const hasCertifications = siteConfig.certifications && siteConfig.certifications
           {
             hasEducation && (
               <a
-                href="#education"
+                href={isHome ? "#education" : "/#education"}
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Education
@@ -179,13 +195,48 @@ const hasCertifications = siteConfig.certifications && siteConfig.certifications
           {
         hasCertifications && (
             <a
-              href="#certifications"
+              href={isHome ? "#certifications" : "/#certifications"}
               class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
             >
               Certifications
             </a>
         )
       }
+      <a
+            href="/blog"
+            class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
+            >Blog</a
+          >
+      {
+            siteConfig.resumeUrl && (
+              <a
+                href={siteConfig.resumeUrl}
+                download
+                class="text-sm text-gray-600 hover:text-[var(--accent-color)] transition-colors inline-flex items-center gap-1 font-semibold"
+                style={`--accent-color: ${siteConfig.accentColor}`}
+                id="footer-resume-download"
+              >
+                Resume
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="w-3.5 h-3.5"
+                >
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" />
+                  <path d="M7 11l5 5l5 -5" />
+                  <path d="M12 4l0 12" />
+                </svg>
+              </a>
+            )
+          }
         </nav>
         <p class="text-sm text-gray-500">
           © {new Date().getFullYear()}

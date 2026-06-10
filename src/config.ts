@@ -2,7 +2,9 @@ export const siteConfig = {
   name: "Gaurav G Alva",
   title: "Data Engineer | Analyst | Web Dev",
   description: "Portfolio website of Gaurav G Alva",
-  accentColor: "#fb8500   ",//"#DD6B20",//"#1d4ed8",
+  siteUrl: "https://gauravgalva.in",
+  resumeUrl: "/images/resume.pdf",
+  accentColor: "#630200",//"#fb8500   ",//"#DD6B20",//"#1d4ed8",
   social: {
     email: "gauravalva.work@gmail.com",
     linkedin: "https://linkedin.com/in/gaurav-alva",
